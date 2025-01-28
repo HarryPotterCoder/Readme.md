@@ -20,3 +20,8 @@ vi ~/.ssh/id_rsa.pub <-copy the contents of this to github > setting -> ssh keys
 Go on Github and create a repository for your homework1 
 git remote add origin git@github.com:kaw393939/is601homework1-spring2024.git <- replace the remote with the remote address for your own repo
 git remote show <- Shows all remotes
+
+Commit 3
+git remote show origin <- Shows the details of the remote called "origin"
+git push origin master <- Pushes to github 
+git checkout -b listInstructions <- creates a branch called listInstructions and checks it out for you
