@@ -12,3 +12,11 @@ vi .gitignore <- opens vi to edit a .gitignore file and add *.sw* to ignore swap
 git add .gitignore
 git commit -m "added swp files to ignore"
 git checkout master
+
+# Commit 2 
+git merge updateReadme
+ssh-keygen -t rsa -b 2048  <-Make ssh key and hit enter no passphrase
+vi ~/.ssh/id_rsa.pub <-copy the contents of this to github > setting -> ssh keys -> add new key
+Go on Github and create a repository for your homework1 
+git remote add origin git@github.com:kaw393939/is601homework1-spring2024.git <- replace the remote with the remote address for your own repo
+git remote show <- Shows all remotes
