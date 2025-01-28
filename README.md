@@ -1,5 +1,5 @@
 # Readme.md
-// Git Commands
+# Commit 1
 gitignore
 ls <- List and variations (ls -a, ls -l)
  pwd <- Present Working Directory
@@ -21,7 +21,12 @@ Go on Github and create a repository for your homework1
 git remote add origin git@github.com:kaw393939/is601homework1-spring2024.git <- replace the remote with the remote address for your own repo
 git remote show <- Shows all remotes
 
-Commit 3
+# Commit 3
 git remote show origin <- Shows the details of the remote called "origin"
 git push origin master <- Pushes to github 
 git checkout -b listInstructions <- creates a branch called listInstructions and checks it out for you
+
+# Commit 4
+git checkout master <- Switches to master branch
+git merge listInstructions <- merges listInstructions branch to the current branch (Check with git status and be on master)
+history <- linux command to show history of commands
